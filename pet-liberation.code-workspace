@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pet-liberation-backend"
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.formats": [
+			{
+				// "extensionName": ".min.css",
+				//Format can be expanded, compact, compressed or nested
+				"format": "compressed",
+				"savePath": "/src"
+			}
+		],
+		"liveSassCompile.settings.excludeList": [
+			"**/node_modules/**",
+			".vscode/**"
+		],
+		"liveSassCompile.settings.generateMap": false
+	}
+}
